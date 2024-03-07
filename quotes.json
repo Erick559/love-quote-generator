@@ -1,0 +1,16 @@
+{
+    "slip": [
+      {
+        "id": 1,
+        "advice": "First piece of advice"
+      },
+      {
+        "id": 2,
+        "advice": "Second piece of advice"
+      },
+      {
+        "id": 3,
+        "advice": "Third piece of advice"
+      }
+    ]
+  }

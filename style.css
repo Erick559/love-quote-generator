@@ -1,7 +1,3 @@
-.filter{
-    filter:invert(25%) sepia(51%) saturate(3339%) hue-rotate(354deg) brightness(91%) contrast(88%);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 *{
@@ -39,7 +35,7 @@ p{
 
 .advice-counter{
     font-size: 10px;
-    color:hsl(150, 100%, 66%);
+    color:#dc2626;
     letter-spacing: 3px;
 }
 
@@ -93,6 +89,10 @@ p{
 .randomizer:hover{
     box-shadow:2px 2px 20px 2px rgba(82,255,168,0.75);
     transition: ease-in-out 0.2s;
+}
+
+.filter:hover{
+    filter:invert(25%) sepia(51%) saturate(3339%) hue-rotate(354deg) brightness(91%) contrast(88%);
 }
 
 @media screen and (min-width:600px) {
