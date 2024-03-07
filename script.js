@@ -16,10 +16,10 @@ async function getRandomAdvice() {
   
       // Select a random advice slip from the array
       const randomIndex = Math.floor(Math.random() * data.slip.length);
-      const advice = data.slip[randomIndex];
+      const message = data.slip[randomIndex];
   
-      adviceCounter.textContent = `ADVICE #${advice.id}`;
-      displayedAdvice.textContent = `"${advice.advice}"`;
+      adviceCounter.textContent = `REASON #${message.id}`;
+      displayedAdvice.textContent = `"${message.message}"`;
     } catch (error) {
       console.error('Error fetching advice:', error);
     }

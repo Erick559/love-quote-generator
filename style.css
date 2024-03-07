@@ -93,6 +93,7 @@ p{
 
 .filter:hover{
     filter:invert(25%) sepia(51%) saturate(3339%) hue-rotate(354deg) brightness(91%) contrast(88%);
+    transition: ease-in-out 0.2s;
 }
 
 @media screen and (min-width:600px) {
